@@ -18,8 +18,6 @@ import com.itextpdf.text.pdf.PdfPTable;
 import com.itextpdf.text.pdf.PdfWriter;
 import java.io.FileOutputStream;
 import java.util.Date;
-
-
 public class FirstPdf {
   /**
    * 
