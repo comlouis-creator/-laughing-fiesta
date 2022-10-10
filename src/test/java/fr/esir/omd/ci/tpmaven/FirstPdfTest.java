@@ -11,5 +11,10 @@ public class FirstPdfTest {
     {
         assertTrue( true );
     }
+	
+	@Test
+	public void testGeneratePDF() {
+		
+	}
 
 }

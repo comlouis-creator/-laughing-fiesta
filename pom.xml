@@ -56,6 +56,14 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+          <!--ajout manifest-->
+          <configuration>
+          <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+            </manifest>
+          </archive>
+        </configuration>
         </plugin>
         <!--ajout install-->
         <plugin>
@@ -177,4 +185,5 @@
         <connection>scm:git:git://3e9e770d571a5887a198e0cac797065d045ef893/repository1/monappli</connection>
         <url>http://3e9e770d571a5887a198e0cac797065d045ef893/svn/monappli-web</url>
     </scm>
+    
 </project>
